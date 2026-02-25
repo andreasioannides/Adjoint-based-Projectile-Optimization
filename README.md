@@ -1,2 +1,11 @@
 # Adjoint-based-Projectile-Optimization
-This project aims the solution of a constrained time-optimal projectile problem with the Continuous Adjoint method. The optimization is conducted with the Augmented Lagrangian Method (ALM) and Stochastic Gradient Descent (SGD) for optimization. The derivatives of the objective function w.r.t the design variables computed by the adjoint method, are
+This project addresses the solution of a constrained time-optimal projectile problem using the Continuous Adjoint Method. The objective is to determine the optimal launch conditions for a capsule containing pharmaceutical payload, released from ground level.\n
+
+The capsule must pass through a prescribed window (box-shaped obstacle) and land at a specified target location in the shortest possible time. The design variables of the problem are:\n
+- The initial horizontal velocity 𝑉𝑥
+- The initial vertical velocity 𝑉𝑦​
+- The mass of an additional internal inertial component
+
+The optimization is performed using the Augmented Lagrangian Method (ALM) in combination with Stochastic Gradient Descent (SGD).\n
+
+Gradients of the objective function with respect to the design variables are computed using the Continuous Adjoint Method and validated against Finite Difference approximations to ensure accuracy.
