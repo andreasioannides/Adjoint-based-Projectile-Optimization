@@ -1,7 +1,7 @@
 # Adjoint-based-Projectile-Optimization
-This project addresses the solution of a constrained time-optimal projectile problem using the Continuous Adjoint Method. The objective is to determine the optimal launch conditions for a capsule containing pharmaceutical payload, released from ground level.\n
+This project addresses the solution of a constrained time-optimal projectile problem using the Continuous Adjoint Method. The objective is to determine the optimal launch conditions for a capsule containing pharmaceutical payload, released from ground level.
 
-The capsule must pass through a prescribed window (box-shaped obstacle) and land at a specified target location in the shortest possible time. The design variables of the problem are:\n
+The capsule must pass through a prescribed window (box-shaped obstacle) and land at a specified target location in the shortest possible time. The design variables of the problem are:
 - The initial horizontal velocity 𝑉𝑥
 - The initial vertical velocity 𝑉𝑦​
 - The mass of an additional internal inertial component
