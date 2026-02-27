@@ -6,6 +6,6 @@ The capsule must pass through a prescribed window (box-shaped obstacle) and land
 - The initial vertical velocity 𝑉𝑦​
 - The mass of an additional internal inertial component
 
-The optimization is performed using the Augmented Lagrangian Method (ALM) in combination with Stochastic Gradient Descent (SGD).\n
+The optimization is performed using Stochastic Gradient Descent (SGD). The Augmented Lagrangian Method (ALM) is employed to enforce constraints.
 
 Gradients of the objective function with respect to the design variables are computed using the Continuous Adjoint Method and validated against Finite Difference approximations to ensure accuracy.
